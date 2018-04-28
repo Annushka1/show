@@ -210,12 +210,18 @@ header {
 .offers .bag220 .offers__title {
   margin-top: 10px;
 }
+.offers .bag220 .middle-img {
+  display: none;
+}
 .offers .bag1200 {
   padding: 16px 6px 39px 17px;
   margin-bottom: 47px;
 }
 .offers .bag1200 .offers__title {
   margin: 10px 0 18px 0;
+}
+.offers .bag1200 .middle-img {
+  display: none;
 }
 footer {
   background-color: #2b2b32;
