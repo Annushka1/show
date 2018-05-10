@@ -154,15 +154,27 @@ div.popup-content {
 
 @media (min-width: 1260px) {
 	.pop-lg-img {display: block;
-		position: absolute;right: -22px;
+		position: absolute;
+		right: -22px;
 		top: 80px;
+		width: 430px;
 	}
 	.pop-sm-img {display: none;}
 
 	.pop-bag4 .pop-lg-img {
-		right: -32px;
-   		top: 68px;
+		right: -41px;
+    	top: 50px;
 	}
+
+	.pop-bag3 .pop-lg-img {
+	    top: 82px;
+	}
+
+	.pop-bag1 .pop-lg-img {
+    right: -22px;
+    top: 107px;
+    width: 397px;
+}
 }
 
 .pop__bag-size {
