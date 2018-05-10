@@ -206,6 +206,165 @@ div.popup-content {
 		width: 424px;
 		font-size: 18px;
 	}	
+
+	.pop-fruit-img {
+    left: -20px;
+    top: -1px;
+}
+
+    .pop-fruit2 .pop-fruit-img {
+    	left: -76px;
+    	top: 77px;
+    }
+	
+	.pop-fruit2 .pop-fruit-img {
+		left: -44px;
+    	top: 72px;
+	}
+
+	.pop-fruit4 .pop-fruit-img {
+    left: -24px;
+    top: 38px;
+}
+
+.pop-fruit3 .pop-fruit-img {
+    left: -38px;
+    top: 64px;
+}
+
+.pop-fruit5 .pop-fruit-img {
+    left: -20px;
+    margin-left: 50px;
+    top: 13px;
+}
+
+.pop-fruit6 .pop-fruit-img {
+    left: -48px;}
+.pop-fruit7 .pop-fruit-img {
+    left: -99px;
+    top: 27px;
+    margin-left: 118px;
+}
+   .pop-fruit8 .pop-fruit-img {
+    left: -46px;
+    top: 33px;
+}
+
+.pop-fruit9 .pop-fruit-img {
+    left: -33px;
+    top: 24px;
+    margin-left: 32px;
+}
+
+.pop-fruit9 .pop-fruit-img {
+	left: -78px;
+    top: 24px;
+    margin-left: 76px;
+}
+
+.pop-fruit10 .pop-fruit-img {
+    left: -74px;
+    top: 36px;
+    margin-left: 76px;
+}
+
+.pop-fruit11 .pop-fruit-img {
+    left: -5px;
+    top: -16px;
+    margin-left: -6px;
+}
+    
+}
+
+@media(min-width: 1260px) {
+	.pop__text:nth-child(5) .pop__text:nth-child(6) {
+		width: 551px;
+	}
+
+	.pop__text:nth-child(6) {
+		width: 700px;
+	}
+
+	.pop-fruit1 .pop-fruit-img {
+    position: absolute;
+    left: 399px;
+    top: 27px;
+}
+
+.pop-fruit1 .pop__text:nth-child(5) {
+    width: 500px;
+}
+
+.pop-fruit2 .pop-fruit-img {
+    left: -117px;
+    top: 23px;
+}
+
+.pop__text:nth-child(5) {
+    width: 704px;
+}
+
+.pop-fruit3 .pop-fruit-img {
+    left: -106px;
+    top: 22px;
+    margin-left: 126px;
+}
+
+.pop-fruit4 .pop-fruit-img {
+    left: -79px;
+    top: -8px;
+    margin-left: 102px;
+}
+
+.pop-fruit5 .pop-fruit-img {
+    left: -67px;
+    margin-left: 128px;
+    top: -8px;
+}
+
+.pop-fruit6 .pop-fruit-img {
+    left: -103px;
+}
+
+.pop-fruit7 .pop-fruit-img {
+    left: -129px;
+    top: 0px;
+    margin-left: 159px;
+}
+
+.pop-fruit8 .pop-fruit-img {
+    left: -98px;
+    top: 2px;
+}
+
+.pop-fruit10 .pop-fruit-img {
+    left: -118px;
+    top: 9px;
+    margin-left: 76px;
+}
+
+.pop-fruit11 .pop-fruit-img {
+    left: -90px;
+    top: 2px;
+    margin-left: -6px;
+}
+
+.pop-fruit-img {
+    left: -103px;
+    top: 11px;
+}
+
+.pop-fruit-img {
+    left: -103px;
+    top: 11px;
+    margin-left: 181px;
+}
+
+.pop-fruit-img {
+    left: -57px;
+    top: 0px;
+    margin-left: 89px;
+}
 }
 
 
