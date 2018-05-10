@@ -381,7 +381,7 @@ div.popup-content {
 
 
 
-.switcher__btn-active a {
+.header__lang .switcher__btn.switcher__btn-active a {
     color: #000;
     text-decoration: none;
 }
