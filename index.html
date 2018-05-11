@@ -17,11 +17,11 @@
     <div class="gamburger">
       <span></span>
     </div>
-    <div class="logo"><a href="index.html">фрутон </a></div>
+    <div class="logo"><a href="index.html"><img src="img/logo-ru.png" alt=""> </a></div>
     <ul class="main-menu"> 
       <li class="main-menu__item"><a href="fruit.html">соки, пюре и основы</a></li>
       <li class="main-menu__item"><a href="bag.html">упаковочные материалы</a></li>
-      <li class="main-menu__item logo-item"><a href="index.html">фрутон
+      <li class="main-menu__item logo-item"><a href="index.html"><img src="img/logo-ru.png" alt="">
        </a></li>
       <li class="main-menu__item"><a href="about.html">о компании</a></li>
       <li class="main-menu__item"><a href="contact.html">контакты</a></li>
@@ -43,20 +43,20 @@
   
   <div class="main-page__fruit">
     <div class="main-page__inner">
-      <img class="main-page__img" src="img/fruit1260.png" alt="">
+      <a href="#popup1" class="open-popup-link"><img class="main-page__img" src="img/fruit1260.png" alt=""></a>
       <div class="main-page__block">
         <h1 class="main-page__title-pages">КОНЦЕНТРированный сок из смеси тропических фруктов</h1>
-        <a class="main-page__pop-btn" data-fancybox data-src="#popup1"  href="javascript:;">Спецификация</a>
+        <a class="main-page__pop-btn open-popup-link popup-link" href="#popup1">Спецификация</a>
         <a class="btn-to-page" href="fruit.html">Другие соки и пюре</a>
       </div>
     </div>      
   </div>
   <div class="main-page__bag">
     <div class="main-page__inner">
-      <img class="main-page__img" src="img/bag1260.png" alt="">
+      <a href="#popup2" class="open-popup-link"><img class="main-page__img" src="img/bag1260.png" alt=""></a>
       <div class="main-page__block">
         <h1 class="main-page__title-pages">Асептический мешок <span class="line-break">220 литров</span></h1>
-        <a class="main-page__pop-btn btn-pop" data-fancybox data-src="#popup2"  href="javascript:;">Спецификация</a>
+        <a class="main-page__pop-btn btn-pop open-popup-link popup-link" href="#popup2">Спецификация</a>
         <a class="btn-to-page" href="bag.html">Другие мешки</a>
       </div>      
     </div>
@@ -76,7 +76,7 @@
   </div>
 </div>
 <div class="pops" style="display: none;">
-  <div class="popup-content fruit-pops pop-fruit1" id="popup1">
+  <div class="popup-content white-popup mfp-hide fruit-pops pop-fruit1" id="popup1">
       <h1 class="pop__title">Концентрированный сок из смеси тропических фруктов</h1>
       <img class="pop-fruit-img" src="img/fruit1pop.png">
       <div class="pops__block-descriptions">
@@ -89,7 +89,7 @@
       </div>
     </div>
 
-  <div class="bag-pops popup-content pop-bag3" id="popup2">
+  <div class="bag-pops popup-content white-popup mfp-hide pop-bag3" id="popup2">
     <h1 class="pop__title">Асептический мешок <span class="pop__bag-size">220 литров</span></h1>
     <img class="pop-img pop-xs-img" src="img/pop220xs.png">
     <img src="img/pop220sm.png" alt="" class="pop-img pop-sm-img">
@@ -109,7 +109,7 @@
 
 
 
-<footer>
+<footer  style="font-weight:400;">
  <div class="footer__inner">
    <div class="phone"><span>Москва</span><span>+7 (495) 640-77-81</span></div>
    <div class="email"><span>e-mail</span><span>info@fruton.ru</span></div>
@@ -118,5 +118,6 @@
  </div> 
 </footer>
 <script src="js/script.min.js"></script>
+<!-- <script src="js/jquery.fancybox.min.js" type="text/javascript"></script> -->
 </body>
 </html>
